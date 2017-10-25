@@ -1,2 +1,11 @@
+diverge = require "highland-diverge"
 
-module.exports = require "./highland-concurrent-flatmap"
+factory = (highland) ->
+  highland().constructor.prototype.concurrentFlatMap = (concurrency, fn) ->
+    @through(diverge(concurrency))
+    .map (stream) -> stream.flatMap fn
+    .merge()
+
+  highland
+
+module.exports = factory require "highland"
