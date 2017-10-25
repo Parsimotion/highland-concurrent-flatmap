@@ -1,0 +1,37 @@
+{
+  "name": "highland-concurrent-flatmap",
+  "version": "0.0.0",
+  "description": "highland-concurrent-flatmap",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "prepublish": "grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parsimotion/highland-concurrent-flatmap.git"
+  },
+  "dependencies": {
+    "highland": "^2.0.0",
+    "highland-diverge": "^0.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.4",
+    "grunt": "^1.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-mocha-test": "^0.13.2",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
+  },
+  "author": "Parsimotion",
+  "license": "MIT",
+  "keywords": [
+    "highland"
+  ],
+  "bugs": {
+    "url": "https://github.com/Parsimotion/highland-concurrent-flatmap/issues"
+  },
+  "homepage": "https://github.com/Parsimotion/highland-concurrent-flatmap#readme"
+}
