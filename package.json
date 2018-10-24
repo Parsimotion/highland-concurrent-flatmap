@@ -12,14 +12,16 @@
     "url": "git+https://github.com/Parsimotion/highland-concurrent-flatmap.git"
   },
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "coffeescript": "^2.3.2",
+    "grunt-exec": "^3.0.0",
     "highland-diverge": "^0.0.1"
   },
   "devDependencies": {
-    "coffee-script": "^1.12.4",
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.3",
     "grunt-bump": "^0.8.0",
     "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-coffee": "^1.0.0",
     "grunt-mocha-test": "^0.13.2",
     "mocha": "^3.2.0",
     "should": "^11.2.1"
