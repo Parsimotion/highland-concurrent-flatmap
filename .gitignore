@@ -40,3 +40,6 @@ jspm_packages
 lib
 
 *.sublime-workspace
+site.config
+*.env
+*.env.*
