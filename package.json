@@ -1,6 +1,6 @@
 {
   "name": "highland-concurrent-flatmap",
-  "version": "1.1.0",
+  "version": "3.0.0-beta.1",
   "description": "highland-concurrent-flatmap",
   "main": "index.js",
   "scripts": {
